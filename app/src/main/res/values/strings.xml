@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobileChargeLocker</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Languages">
+        <item>On-Day Mode</item>
+        <item>On-Night Mode</item>
+    </string-array>
+</resources>
