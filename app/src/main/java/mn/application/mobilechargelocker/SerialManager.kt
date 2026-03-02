@@ -13,8 +13,6 @@ import android.widget.Toast
 import com.felhr.usbserial.UsbSerialDevice
 import com.felhr.usbserial.UsbSerialInterface
 import java.lang.reflect.Method
-
-
 class SerialManager {
     val ACTION_USB_PERMISSION = "mn.application.mobilechargelocker.USB_PERMISSION"
 

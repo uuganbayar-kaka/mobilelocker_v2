@@ -38,7 +38,6 @@ import kotlin.random.Random
 import androidx.lifecycle.lifecycleScope
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var loadingViewManager: DataUtils.LoadingViewManager
     private var sysNavHider: SystemUiVisibilityHider? = null
     private lateinit var courseGRV: GridView

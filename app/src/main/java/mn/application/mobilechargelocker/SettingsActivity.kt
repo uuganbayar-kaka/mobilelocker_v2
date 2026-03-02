@@ -15,12 +15,10 @@ import kotlin.system.exitProcess
 
 class SettingsActivity : AppCompatActivity() {
     private var sysNavHider: SystemUiVisibilityHider? = null
-
     val ACTION_USB_PERMISSION = "mn.application.mobilechargelocker.USB_PERMISSION"
     private val usbDevicesList = ArrayList<UsbDevice?>()
     private val usbDevicesStringList = ArrayList<String?>()
     private var btnBack: ImageButton? = null
-
     lateinit var closeApplicationBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
